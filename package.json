@@ -1,0 +1,75 @@
+{
+    "author": "somepaddi",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tardis_bt_weather",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Tardis_BT_Weather",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "WEATHER_CITY_KEY": 2,
+            "WEATHER_ICON_KEY": 0,
+            "WEATHER_TEMPERATURE_KEY": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Cloud",
+                    "name": "IMAGE_CLOUD",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BT_Icon",
+                    "name": "IMAGE_BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Tardis_Icon",
+                    "menuIcon": true,
+                    "name": "IMAGE_TARDIS_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/TardisBG",
+                    "name": "IMAGE_TARDIS_BG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Snow",
+                    "name": "IMAGE_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Rain",
+                    "name": "IMAGE_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Sun",
+                    "name": "IMAGE_SUN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "35f47b3a-ca62-44e9-b743-c663c71d44af",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
