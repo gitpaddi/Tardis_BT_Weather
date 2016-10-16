@@ -1,7 +1,7 @@
 {
     "author": "somepaddi",
     "dependencies": {},
-    "keywords": [],
+    "keywords": ["tardis", "Bluetooth", "Weather", "Doctor Who", "The Doctor"],
     "name": "tardis_bt_weather",
     "pebble": {
         "capabilities": [
