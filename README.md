@@ -18,6 +18,6 @@ Todo:
 - Switch between Celsius and Fahrenheit
 - Enable/Disable Weather information to save battery
 - Option for the date to show the day or the month
-
+- API-Key entry
 
 Please send me any suggestions or questions to help me imporve this WatchFace.
