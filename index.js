@@ -1,4 +1,4 @@
-var myAPIKey = '801109e5c597d3a28e4e4a3a3c377181';
+var myAPIKey = '';
 
 function iconFromWeatherId(weatherId) {
   if (weatherId < 600) {
