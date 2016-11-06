@@ -130,7 +130,7 @@ static void main_window_load(Window *window) {
     Tuplet initial_values[] = {
         TupletInteger(WEATHER_ICON_KEY, (uint8_t) 2),
         TupletCString(WEATHER_TEMPERATURE_KEY, "load\u00B0C"),
-        TupletCString(WEATHER_CITY_KEY, "Absam"),
+        TupletCString(WEATHER_CITY_KEY, "City"),
     };
 
     app_sync_init(&s_sync, s_sync_buffer, sizeof(s_sync_buffer),
