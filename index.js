@@ -48,7 +48,7 @@ function locationSuccess(pos) {
 function locationError(err) {
   console.warn('location error (' + err.code + '): ' + err.message);
   Pebble.sendAppMessage({
-    'WEATHER_CITY_KEY': 'Loc Unavailable',
+    'WEATHER_CITY_KEY': 'Loc?',
     'WEATHER_TEMPERATURE_KEY': 'N/A'
   });
 }
