@@ -1,3 +1,21 @@
 # Tardis_BT_Weather
 
-Tardis inspired Pebble WatchFace with BT connection loss vibraiton and Weather information from openweathermap.org
+Tardis inspired WatchFace for Pebble.
+
+<img src="Screenshot.png"/>
+
+Features:
+- Time/Date
+- Vibration on BT connection loss
+- Weather information from openweathermap.org
+
+For the Weather information you need to get a key from <a href="openweathermap.org">OpenWheaterMap.org</a>!
+
+Todo:
+- Switch between 24h/12h mode
+- Switch between Celsius and Fahrenheit
+- Enable/Disable Weather information to save battery
+- Option for the date to show the day or the month
+
+
+Please send me any suggestions or questions to help me imporve this WatchFace.
