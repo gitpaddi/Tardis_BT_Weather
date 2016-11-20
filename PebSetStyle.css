@@ -2,15 +2,27 @@ body {
     /*background-image: url("img/bg.jpg");*/
     background-color: #555555;
     color: #FF5500;
-    font-size: 87.5%;
+    font-size: 100%;
     font-family: Arial, "Lucida Sans Unicode";
     line-height: 1.5;
-    text-align: left;
+    text-align: center;
 }
 
-div {
-    color: #AAAAAA;
+.options {
+    background-color: #FF5500;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 100%;
+    text-align: center;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+.button {
+    background-color: #555555;
+    color: #FFFFFF;
+    text-align: center;
 }
