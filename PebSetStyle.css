@@ -1,0 +1,16 @@
+body {
+    /*background-image: url("img/bg.jpg");*/
+    background-color: #555555;
+    color: #FF5500;
+    font-size: 87.5%;
+    font-family: Arial, "Lucida Sans Unicode";
+    line-height: 1.5;
+    text-align: left;
+}
+
+div {
+    color: #AAAAAA;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
