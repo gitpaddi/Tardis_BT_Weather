@@ -7,34 +7,34 @@
         <link rel="stylesheet" href="PebSetStyle.css" type="text/css" />
     </head>
 
-    <body>
+    <body class="body">
         <h1>Settings</h1>
-        <div>
+        <div class="options">
         <lable>
             Show Day instead of Month
             <input id="day_toggle" type="checkbox">
         </lable>
         </div>
-        <div>
+        <div class="options">
         <lable>
             Show Fahrenheit
             <input id="temp_toggle" type="checkbox">
         </lable>
         </div>
-        <div>
+        <div class="options">
         <lable>
             Show Weather Information
             <input id="weather_toggle" type="checkbox">
         </lable>
         </div>
-        <div>
+        <div class="options">
         <lable>
             Bluetooth Connection Vibration
             <input id="bluetooth_toggle" type="checkbox">
         </lable>
         </div>
-        <div>
-            <input id="submit_button" type="button" value="SAVE">
+        <div class="button">
+            <input id="submit_button" type="button" value="Submit">
         </div>
     </body>
 
@@ -60,6 +60,7 @@
         localStorage["bluetooth_toggle"] = options["bluetooth_toggle"];
         return options;
     }
+
     function getQueryParam(variable, defaultValue) {
         var query = location.search.substring(1);
         var vars = query.split('&');
@@ -71,18 +72,24 @@
         }
         return defaultValue || false;
       }
+
     var submitButton = document.getElementById('submit_button');
     submitButton.addEventListener('click', function() {
         console.log('Submit');
+
         // Set the return URL depending on the runtime environment
         var return_to = getQueryParam('return_to', 'pebblejs://close#');
         document.location = return_to + encodeURIComponent(JSON.stringify(getConfigData()));
     });
+
+
+
     (function() {
         var day_toggle = document.getElementById('day_toggle');
         var temp_toggle = document.getElementById('temp_toggle');
         var weather_toggle = document.getElementById('weather_toggle');
         var bluetooth_toggle = document.getElementById('bluetooth_toggle');
+
         // Load any previously saved configuration, if available
         if(localStorage['bluetooth_toggle']) {
             day_toggle.checked = JSON.parse(localStorage['day_toggle']) === 1;
@@ -91,6 +98,7 @@
             weather_toggle.checked = JSON.parse(localStorage['weather_toggle']) === 1;
         }
     })();
+
     </script>
 
 </html>
